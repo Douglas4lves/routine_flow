@@ -10,3 +10,13 @@
         'Segoe UI Symbol', 'Noto Color Emoji'; */
 
 }
+
+
+.bg-base {
+    background-color: #4F46E5;
+}
+
+.text-base{
+    color: #4F46E5;
+}
+

@@ -9,11 +9,14 @@
     </title>
     @vite('resources/css/app.css')
 </head>
-<body>
+<body class="min-h-screen flex flex-col">
 
     <x-header></x-header>
 
-    {{$slot}}
+    <main class="flex-1">
+        {{$slot}}
+    </main>
+    
     
     <x-footer></x-footer>
 
